@@ -80,6 +80,15 @@ More on the engineering: [methodology](https://huntersalgo.com/methodology) · [
 
 Product source is private. Strategies and indicators ship as compiled NinjaScript assemblies.
 
+## Public repositories
+
+Nothing here contains strategy or indicator source. These are the files and write-ups that are safe to read in the open.
+
+- [huntersalgo-results](https://github.com/HuntersAlgo/huntersalgo-results): the published test files, with a script and charts that rebuild the summary figures. All hypothetical.
+- [hunterstrike-playbook](https://github.com/HuntersAlgo/hunterstrike-playbook): how to read and trade the HunterStrike levels, with chart examples.
+- [huntersalgo-setup](https://github.com/HuntersAlgo/huntersalgo-setup): setup guide, FAQ and changelog.
+- [risk-calculators](https://github.com/HuntersAlgo/risk-calculators): the arithmetic behind the free calculators on the site, with tests.
+
 ## Setup and support
 
 - [Setup guide](https://huntersalgo.com/setup): choose a strategy, install and configure, then evaluate in simulation before deciding whether to trade live.
