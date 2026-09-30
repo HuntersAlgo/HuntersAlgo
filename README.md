@@ -62,6 +62,8 @@ Nothing linked here is a live trading record. Each package is labelled with what
 | HunterML Templates 01 to 10 | Hypothetical market replay and Strategy Analyzer runs, repeat runs kept visible | NQ, 2,796 logged trades | [Results page](https://huntersalgo.com/results) |
 | HunterBreakOut | Historical Strategy Analyzer backtest | NQ, 1 Mar 2025 to 10 Apr 2026, 533 trades | [Results page](https://huntersalgo.com/results) |
 
+All of these files are also in [huntersalgo-results](https://github.com/HuntersAlgo/huntersalgo-results), with column notes and a script to check them.
+
 The other eleven strategies ship in the suite, but their result packages are still being audited, so the results page lists them as in development instead of showing figures.
 
 Replay and backtest results are hypothetical. They are prepared with hindsight and cannot fully model slippage, partial fills, latency or gap days. Read the [methodology](https://huntersalgo.com/methodology), the [backtesting vs live guide](https://huntersalgo.com/guides/backtesting-vs-live-trading-results) and the [disclosures](https://huntersalgo.com/disclosures) next to any figure.
@@ -76,7 +78,7 @@ Replay and backtest results are hypothetical. They are prepared with hindsight a
 
 More on the engineering: [methodology](https://huntersalgo.com/methodology) · [changelog](https://huntersalgo.com/changelog) · [blog](https://huntersalgo.com/blog) · [guides](https://huntersalgo.com/guides) · [trading tools](https://huntersalgo.com/tools)
 
-Product source is private. Strategies and indicators ship as compiled NinjaScript assemblies, and the public repositories on this account are reference forks.
+Product source is private. Strategies and indicators ship as compiled NinjaScript assemblies.
 
 ## Setup and support
 
