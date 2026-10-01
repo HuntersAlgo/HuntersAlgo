@@ -20,10 +20,13 @@ I'm Hunter. HuntersAlgo is one person. I write the strategies, publish the test 
 
 ## Strategies
 
-Thirteen strategies ship in one NinjaTrader 8 suite: HunterML plus twelve rule-based systems. Every strategy runs on NinjaTrader 8. TradingView versions exist for the original six, so check the strategy page before subscribing.
+**Coming soon: [The Philosophers](https://huntersalgo.com/strategies/the-philosophers)**, the new flagship. Two session-based NQ and ES strategies for NinjaTrader 8: Plato for the New York open, Aristotle for the afternoon session. Developed by ShakeMyShaft, published by HuntersAlgo. Backtest summary and limitations are on the strategy page; it is in forward testing now.
+
+Thirteen strategies ship in the NinjaTrader 8 suite today: HunterML plus twelve rule-based systems. Every strategy runs on NinjaTrader 8. TradingView versions exist for the original six, so check the strategy page before subscribing.
 
 | Strategy | Approach | Markets |
 | --- | --- | --- |
+| [The Philosophers](https://huntersalgo.com/strategies/the-philosophers) (coming soon) | Two session-based strategies: Plato (New York open), Aristotle (afternoon) | NQ, ES |
 | [HunterML](https://huntersalgo.com/strategies/hunterml) | Machine-learning-tuned, two-sided, session-aware | NQ |
 | [HunterBreakOut](https://huntersalgo.com/strategies/hunterbreakout) | Band breakout | NQ, ES |
 | [HunterNova](https://huntersalgo.com/strategies/hunternova) | Momentum | NQ, ES |
