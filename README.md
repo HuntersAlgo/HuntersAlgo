@@ -22,7 +22,7 @@ I'm Hunter. HuntersAlgo is one person. I write the strategies, publish the test 
 
 **New: [The Philosophers](https://huntersalgo.com/strategies/the-philosophers)**, the flagship. Two session-based NQ and ES strategies for NinjaTrader 8: Shake.Plato for the New York open and Shake.Aristotle for the afternoon session, with ten ready-made templates. Developed by ShakeMyShaft, published by HuntersAlgo, and included in every plan. Backtest summary and limitations are on the strategy page.
 
-Fifteen strategies ship in the NinjaTrader 8 suite: The Philosophers (Shake.Plato and Shake.Aristotle), HunterML and twelve rule-based systems. Every strategy runs on NinjaTrader 8. TradingView versions exist for the original six, so check the strategy page before subscribing.
+Fourteen strategies ship in the NinjaTrader 8 suite: The Philosophers (Shake.Plato and Shake.Aristotle), HunterML and eleven rule-based systems. Every strategy runs on NinjaTrader 8. TradingView versions exist for the original five, so check the strategy page before subscribing.
 
 | Strategy | Approach | Markets |
 | --- | --- | --- |
@@ -31,7 +31,6 @@ Fifteen strategies ship in the NinjaTrader 8 suite: The Philosophers (Shake.Plat
 | [HunterBreakOut](https://huntersalgo.com/strategies/hunterbreakout) | Band breakout | NQ, ES |
 | [HunterNova](https://huntersalgo.com/strategies/hunternova) | Momentum | NQ, ES |
 | [HunterEMA](https://huntersalgo.com/strategies/hunterema) | EMA crossover | NQ, ES |
-| [Hunter4PMBreak](https://huntersalgo.com/strategies/hunter4pmbreak) | Session break around the 4 PM ET close | NQ, ES |
 | [HunterGC](https://huntersalgo.com/strategies/huntergc) | Nadaraya-Watson kernel regression | GC |
 | [HunterSI](https://huntersalgo.com/strategies/huntersi) | Calibrated for silver futures | SI |
 | [HunterORB](https://huntersalgo.com/strategies/hunterorb) | Opening range breakout | Any futures |
@@ -62,12 +61,13 @@ Nothing linked here is a live trading record. Each package is labelled with what
 | Published package | Kind of evidence | Scope | Files |
 | --- | --- | --- | --- |
 | HunterML Template 01 | Hypothetical market replay | NQ, 1 May to 26 Jun 2026, 373 trades | [Trade CSV](https://huntersalgo.com/results/hunterml/trades/template-01-trades.csv) · [MAE/MFE CSV](https://huntersalgo.com/results/hunterml/excursions/template-01-excursions.csv) |
-| HunterML Templates 01 to 10 | Hypothetical market replay and Strategy Analyzer runs, repeat runs kept visible | NQ, 2,796 logged trades | [Results page](https://huntersalgo.com/results) |
-| HunterBreakOut | Historical Strategy Analyzer backtest | NQ, 1 Mar 2025 to 10 Apr 2026, 533 trades | [Results page](https://huntersalgo.com/results) |
+| HunterML Templates 01 to 10 | Hypothetical market replay and Strategy Analyzer runs, repeat runs kept visible | NQ, 2,796 logged trades | [HunterML results](https://huntersalgo.com/hunterml/results) |
+| V3.1 templates, 7 strategies | Strategy Analyzer backtests: tuned on Oct 2024 to Sep 2026, then run on Oct 2023 to Sep 2024, a year the tuning never saw; one run per template over 29 Mar to 30 Sep 2026 with the summary screenshot and trade log | NQ, ES, YM, GC; 15 full-size and 15 micro templates, 30 trade logs | [Results page](https://huntersalgo.com/results) · per-strategy pages, e.g. [HunterKillShot](https://huntersalgo.com/strategies/hunterkillshot/results) |
+| HunterBreakOut, April 2026 | Historical Strategy Analyzer backtest with the template of that time | NQ, 1 Mar 2025 to 10 Apr 2026, 533 trades | [HunterBreakOut results](https://huntersalgo.com/strategies/hunterbreakout/results) |
 
 All of these files are also in [huntersalgo-results](https://github.com/HuntersAlgo/huntersalgo-results), with column notes and a script to check them.
 
-The other eleven strategies ship in the suite, but their result packages are still being audited, so the results page lists them as in development instead of showing figures.
+Seven strategies have published V3.1 results: HunterKillShot, HunterEMA, HunterFlare, HunterICT, Hunter3BP, HunterGC and HunterBreakOut. HunterNova, HunterSI, HunterORB and HunterASO ship in the suite but have no published result package: ASO's tuned settings lost money in the year the tuning never saw, and the other three are still going through the same test. The results page lists them as in development instead of showing figures.
 
 Replay and backtest results are hypothetical. They are prepared with hindsight and cannot fully model slippage, partial fills, latency or gap days. Read the [methodology](https://huntersalgo.com/methodology), the [backtesting vs live guide](https://huntersalgo.com/guides/backtesting-vs-live-trading-results) and the [disclosures](https://huntersalgo.com/disclosures) next to any figure.
 
